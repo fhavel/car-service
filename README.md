@@ -11,5 +11,5 @@ mvn clean spring-boot:run
 ## cURL
 
 ```shell
-curl localhost:8081/cars -X POST -H "Content-type: application/json" --data "{\"name\":\"Škoda\"}"
+curl localhost:8080/cars -X POST -H "Content-type: application/json" --data "{\"name\":\"Škoda\"}"
 ```
